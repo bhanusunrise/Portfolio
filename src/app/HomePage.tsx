@@ -83,7 +83,7 @@ export default function HomePage() {
               I am a software engineer with a passion for building innovative and user-friendly applications. I have a strong background in web development and have worked on projects using Nextjs, Reactjs and PHP. I am also experienced in Python, JavaScript, Java and Flutter. I am currently serving as a software engineer team leader at AIESEC, while freelancing as a web developer at Bhanu Sunrise Solutions.
             </Text>
             <Text size="xl" style={{ color: "gray", fontWeight: "400", marginBottom: "10%" }}>
-              I studied at  Bandaranayake College Gampaha and completed my Advanced Level examination in 2020 in Physical Science and I.C.T. stream. I am currently studying for a Bachelor's degree in Information Technology at the University of Kelaniya. I am a self-motivated individual who is always eager to learn new technologies and improve my skills.
+              I studied at  Bandaranayake College Gampaha and completed my Advanced Level examination in 2020 in Physical Science and I.C.T. stream. I am currently studying for a Bachelor&apos;s degree in Information Technology at the University of Kelaniya. I am a self-motivated individual who is always eager to learn new technologies and improve my skills.
             </Text>
           </div>
           <div style={{ flex: 1, textAlign: "left", paddingLeft: "5%" }}>

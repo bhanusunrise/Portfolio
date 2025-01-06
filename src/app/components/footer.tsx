@@ -1,6 +1,6 @@
 'use client';
 
-import { ActionIcon, Anchor, Group } from '@mantine/core';
+import { Anchor, Group } from '@mantine/core';
 import classes from './FooterCentered.module.css';
 
 const links = [

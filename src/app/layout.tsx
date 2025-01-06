@@ -3,12 +3,11 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import '@mantine/core/styles.css';
 import { createTheme, MantineProvider } from '@mantine/core';
-
+import Script from 'next/script'; // Import the Script component
 
 const theme = createTheme({
-  /** Put your mantine theme override here */
+  /** Put your Mantine theme override here */
 });
-
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,9 +33,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <MantineProvider theme={theme}>
-        {children}
+          {children}
         </MantineProvider>
-        <script src="https://kit.fontawesome.com/d718882eec.js" crossOrigin="anonymous"></script>
+        <Script src="https://kit.fontawesome.com/d718882eec.js" crossOrigin="anonymous" strategy="lazyOnload" />
       </body>
     </html>
   );
