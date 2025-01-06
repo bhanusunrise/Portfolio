@@ -52,6 +52,61 @@ export default function Portfolio() {
                 repo_link="https://github.com/bhanusunrise/Global-Expansia-1.0"
             />
 
+            <Project 
+                title="Exchange Marathon Dashboard" 
+                description="Exchange Marathon was an event which was condusted globally by AIESEC international and in Sri Lanka, it was handled by AIESEC in Sri Lanka. I developed this dashboard to manage the event." 
+                technologies={["Python", "Streamlit"]}
+                imageUrl="/projects/exchange_marathon.png"
+                repo_link="https://github.com/AIESEC-LK/exchange-marathon-dashboard"
+            />
+
+            <Project 
+                title="NLDS Marathon Dashboard" 
+                description="NLDS Marathon ws a similar event to Exchange Marathon. I developed this dashboard to manage the event." 
+                technologies={["Python", "Streamlit"]}
+                imageUrl="/projects/exchange_marathon.png"
+                repo_link="https://github.com/AIESEC-LK/nlds-marathon"
+            />
+
+            <Project 
+                title="Akuna Weather App" 
+                description="This is a weather app which was developed by me to showcase the weather of the world. This is my academic project." 
+                technologies={["Flutter", "Weather API"]}
+                imageUrl="/projects/akuna_weather_app.png"
+                repo_link="https://github.com/bhanusunrise/Akuna-Weather-App"
+            />
+
+            <Project 
+                title="Eventra Event Notifying App" 
+                description="This is an event notifying app which was developed by me to notify the events to the users. This is my academic project." 
+                technologies={["Java", "Android Studio"]}
+                imageUrl="/projects/eventra_event_app.png"
+                repo_link="https://github.com/bhanusunrise/EVENTRA-Android-App"
+            />
+
+            <Project 
+                title="Koopi - Coffee Shop Management System" 
+                description="This is a desktop application which was developed by me to manage the coffee shop. This is my academic project." 
+                technologies={["Java", "Java Swing", "MySQL"]}
+                imageUrl="/projects/koopi_desktop_app.png"
+                repo_link="https://github.com/bhanusunrise/Coffee-Shop"
+            />
+
+            <Project 
+                title="VR Era - VR Content Management System" 
+                description="This website was devekoped to showcase the VR content to the student. This is my hackathon project." 
+                technologies={["HTML", "CSS", "JavaScript", "PHP", "Bootstrap", "A-Frame"]}
+                imageUrl="/projects/vr_era_app.png"
+                repo_link="https://github.com/bhanusunrise/VR-Era"
+            />
+
+            <Project 
+                title="Kamadasa Video Game" 
+                description="This video game was developed by me for our school's 100th anniversary exhibition X'Ban 2018. I presented whis project for entire five days." 
+                technologies={["Game Maker 8.0", "MS Paint", "Virtual DJ", "Audacity", "GML"]}
+                imageUrl="/projects/kamadasa.jpeg"
+                project_link="https://drive.google.com/file/d/1wdlaOCcmgfJs4PqyJKaaghD9KH_L1QGu/view?usp=sharing"
+            />
 
         </>
     );
