@@ -63,7 +63,7 @@ export default function Home() {
 }
 
 const loadingStyle = {
-  position: 'fixed' as 'fixed',
+  position: 'fixed' as const, // Use 'as const' for literal type assertion
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
@@ -73,3 +73,4 @@ const loadingStyle = {
   zIndex: 1000,
   backgroundColor: 'rgba(255, 255, 255, 0.8)', 
 };
+
