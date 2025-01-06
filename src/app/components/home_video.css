@@ -1,0 +1,26 @@
+.home-video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Places the video behind other content */
+    overflow: hidden;
+    background-color: black; /* Optional fallback */
+}
+
+.home-video-container video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.home-video-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Black with 50% transparency */
+    z-index: 1; /* Ensures it is above the video */
+}
