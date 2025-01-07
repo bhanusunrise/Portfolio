@@ -8,7 +8,7 @@ export default function Contact() {
                    <br /><br /><br /><br /><br /><br />
                    <Title order={1} size="4rem" c="black" style={{fontWeight: "400", textAlign: "center"}}>Contact</Title>
                    <Text size="xl" c="gray" style={{textAlign: "center", paddingLeft: "10%", paddingRight: "10%", marginTop: "3%", marginBottom: "3%"}}>
-                       If you have any questions or inquiries, please don't hesitate to contact me using the form below. I look forward to hearing from you!
+                       If you have any questions or inquiries, please don&apos;t hesitate to contact me using the form below. I look forward to hearing from you!
                     </Text>
                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", paddingLeft: "15%", paddingRight: "15%", paddingBottom: "2%" }}>
                         <div style={{ flex: 1, textAlign: "center", paddingRight: "5%" }}>
