@@ -10,7 +10,7 @@ export default function FrontPageContactForm() {
 
     const handleSubmit = async () => {
         try {
-            const response = await fetch('https://www.pasindubhanuka.com/api/send_mail', {
+            const response = await fetch('/api/send_mail', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
