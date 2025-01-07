@@ -1,5 +1,6 @@
 import { Title, Text, Tabs } from "@mantine/core";
 import ExperianceTimeline from "./components/timeline";
+import Achievement from "./components/achievement";
 
 export default function Experience() {
     return (
@@ -14,9 +15,9 @@ export default function Experience() {
 
             <Tabs defaultValue="positions">
                 <Tabs.List justify="center">
-                    <Tabs.Tab value="positions"><Text size = "xl">Positions</Text></Tabs.Tab>
-                    <Tabs.Tab value="organizations"><Text size = "xl">Achievements</Text></Tabs.Tab>
-                    <Tabs.Tab value="certifications"><Text size = "xl">Certifications</Text></Tabs.Tab>
+                    <Tabs.Tab value="positions"><Text size = "xl"><i className="fa-solid fa-briefcase" style={{marginRight: "10%"}}></i>Positions</Text></Tabs.Tab>
+                    <Tabs.Tab value="achievements"><Text size = "xl"><i className="fa-solid fa-award" style={{marginRight: "10%"}}></i>Achievements</Text></Tabs.Tab>
+                    <Tabs.Tab value="certifications"><Text size = "xl"><i className="fa-solid fa-certificate" style={{marginRight: "10%"}}></i>Certifications</Text></Tabs.Tab>
                 </Tabs.List>
 
                 <Tabs.Panel value="positions">
@@ -90,6 +91,46 @@ export default function Experience() {
                 />
                 </div>
                 </Tabs.Panel>
+
+                <Tabs.Panel value="achievements">
+                    <div style={{marginTop: "15%", marginBottom: "3%", marginLeft: "10%", marginRight: "10%"}}>
+                        <Achievement 
+                            achievement="Zest of June for IGv B2B - AIESEC in University of Kelaniya"
+                            description="I was awarded the Zest of June for iGV B2B - AIESEC in University of Kelaniya for the month of June 2024."
+                            date="2024 June"
+                            image_url="/achievements/igv.jpeg"
+                        />
+                        <Achievement 
+                            achievement="Edify - Intra departmental Article Competition - Second Runner's Up"
+                            description="I was awarded the Second Runner's Up award at the Edify - Intra departmental Article Competition which was organized by Department of Industrial Management, Faculty of Science,
+                            University of Kelaniya for Exposition Issue 19."
+                            date="2024 February"
+                            image_url="/achievements/edify.jpg"
+                        />
+                        <Achievement
+                            achievement="Pioneers Ideathon - Finalist"
+                            description="I was awarded as a Finalist at the Pioneers Ideathon which was organized by Rotaract Club, University of Kelaniya."
+                            date="2023 May"
+                            image_url="/achievements/pioneers.jpeg"
+                        />
+                        <Achievement
+                            achievement="Kick Start Weekend - Runner's Up"
+                            description="Our talent management system (TalentX) became the second best business idea of the Kickstart weekend."
+                            date="2023 March"
+                            image_url="/achievements/kick_start.jpg"
+                        />
+                        <Achievement
+                            achievement="HackX 7.0 - Finalist"
+                            description="Our team could be able to select as a finalist at the HackX 7.0 which was organized by Department of Industrial Management, Faculty of Science, University of Kelaniya."
+                            date="2022 September"
+                            image_url="/achievements/hackx.jpg"
+                        />
+
+
+
+
+                    </div>           
+                </Tabs.Panel>    
                 </Tabs>
             </Text>
         </div>
