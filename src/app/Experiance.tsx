@@ -1,6 +1,7 @@
 import { Title, Text, Tabs } from "@mantine/core";
 import ExperianceTimeline from "./components/timeline";
 import Achievement from "./components/achievement";
+import Certification from "./components/certification";
 
 export default function Experience() {
     return (
@@ -125,11 +126,68 @@ export default function Experience() {
                             date="2022 September"
                             image_url="/achievements/hackx.jpg"
                         />
-
-
-
-
                     </div>           
+                </Tabs.Panel>
+
+                <Tabs.Panel value="certifications">
+                   
+                
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "10%", marginTop: "10%" }}>
+                    <div style={{ flex: 1, textAlign: "left", paddingRight: "5%" }}>
+
+                    <Certification
+                        certificate="Getting Started with CISCO Packet Tracer"
+                        description="CISCO"
+                        date="2023 March"
+                        image_url="/certifications/packet_tracer.png"
+                    />
+
+                     <Certification
+                        certificate="Introduction to JavaScript"
+                        description="Sololearn"
+                        date="2023 March"
+                        image_url="/certifications/intro_to_js.jpg"
+                    />
+
+                    <Certification
+                        certificate="Introduction to Java"
+                        description="Sololearn"
+                        date="2023 March"
+                        image_url="/certifications/intro_to_java.jpg"
+                        />
+                    <Certification
+                        certificate="Java Intermediate"
+                        description="Sololearn"
+                        date="2023 March"
+                        image_url="/certifications/java_intm.jpg"
+                        />
+
+
+                    </div>
+                    <div style={{ flex: 1, textAlign: "right", paddingLeft: "5%" }}>
+                    <Certification
+                        certificate="Introduction to HTML"
+                        description="Sololearn"
+                        date="2023 March"
+                        image_url="/certifications/intro_to_html.jpg"
+                        />
+
+                    <Certification
+                        certificate="Introduction to CSS"
+                        description="Sololearn"
+                        date="2023 March"
+                        image_url="/certifications/intro_to_css.jpg"
+                        />
+
+                    <Certification
+                        certificate="Introduction to SQL"
+                        description="Sololearn"
+                        date="2023 March"
+                        image_url="/certifications/intro_to_sql.jpg"
+                        />
+                    </div>
+                </div>
+
                 </Tabs.Panel>    
                 </Tabs>
             </Text>
