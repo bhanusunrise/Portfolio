@@ -22,7 +22,7 @@ export default function FrontPageContactForm() {
                 alert("Email sent successfully!");
                 handleReset();
             } else {
-                alert("Failed to send email.");
+                alert(response.statusText);
             }
         } catch (error) {
             console.error(error);
