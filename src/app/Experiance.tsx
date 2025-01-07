@@ -9,7 +9,7 @@ export default function Experience() {
             <Title order={1} size="4rem" c="black" style={{fontWeight: "400", textAlign: "center"}}>Experience</Title>
             <Text size="xl" c="gray" style={{textAlign: "center", paddingLeft: "10%", paddingRight: "10%", marginTop: "3%", marginBottom: "3%"}}>
                 I have wide range of experiances including Software Development, Event Management, Marketing, and more. I have worked with various companies and organizations to help them grow and achieve their goals.
-                In my university and school years, I have worked with various sports, clubs and organizations to help them grow and achieve their goals.
+                In my university and school years, I have worked with various sports, clubs and organizations to help them grow and achieve their goals. Also, I have completed some certifications while getting some more achievements.
 
             <br /><br /><br />
 
