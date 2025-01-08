@@ -5,10 +5,16 @@ import { useState } from 'react';
 
 export default function Navbar({ setActivePage }: { setActivePage: (page: string) => void }) {
     const [activeLink, setActiveLink] = useState<string>('Home');
+    const [menuOpen, setMenuOpen] = useState<boolean>(false);
 
     const handleLinkClick = (link: string) => {
         setActiveLink(link);
-        setActivePage(link); // Set the active page in the parent component
+        setActivePage(link);
+        setMenuOpen(false); // Close the menu when a link is clicked
+    };
+
+    const toggleMenu = () => {
+        setMenuOpen(!menuOpen);
     };
 
     return (
@@ -16,7 +22,10 @@ export default function Navbar({ setActivePage }: { setActivePage: (page: string
             <div className="navbar-logo">
                 <p>Pasindu Bhanuka</p>
             </div>
-            <div className="navbar-links">
+            <button className="menu-toggle" onClick={toggleMenu}>
+                ☰
+            </button>
+            <div className={`navbar-links ${menuOpen ? 'open' : ''}`}>
                 {['Home', 'Portfolio', 'Experience', 'Contact'].map((link) => (
                     <a
                         key={link}
