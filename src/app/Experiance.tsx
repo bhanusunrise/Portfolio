@@ -43,7 +43,7 @@ export default function Experience() {
                         },
                         {
                         title: "Product Strategy - Team Lead - Incoming Exchanges | AIESEC in University of Kelaniya",
-                        description: "I am working with AIESEC in University of Kelaniya's Incoming Exchanges Team to help them grow and achieve their goals. I am mainly working on creating marketing strategies",
+                        description: "I was working with AIESEC in University of Kelaniya's Incoming Exchanges Team to help them grow and achieve their goals. I am mainly working on creating marketing strategies",
                         time: "2024 August - 2024 January"
                         },
                         {
