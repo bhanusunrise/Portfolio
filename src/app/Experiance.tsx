@@ -27,6 +27,11 @@ export default function Experience() {
                 <ExperianceTimeline
                     items={[    
                         {
+                        title: "Web Designer | AIESEC in Greece",
+                        description: "I am working with AIESEC in Greece's as a Web Designer.",
+                        time: "2025 January - Present"
+                        },
+                        {
                         title: "Software Engineer - Team Lead (Internship) | AIESEC in Sri Lanka",
                         description: "I am working with AIESEC in Sri Lanka's National Dev Team to help them grow and achieve their goals. I am mainly working on CRM project and hackathon dashboards.",
                         time: "2024 August - Present"
@@ -39,7 +44,7 @@ export default function Experience() {
                         {
                         title: "Product Strategy - Team Lead - Incoming Exchanges | AIESEC in University of Kelaniya",
                         description: "I am working with AIESEC in University of Kelaniya's Incoming Exchanges Team to help them grow and achieve their goals. I am mainly working on creating marketing strategies",
-                        time: "2024 August - Present"
+                        time: "2024 August - 2024 January"
                         },
                         {
                         title: "Freelance Web Developer | Bhanu Sunrise Solutions",
@@ -62,7 +67,7 @@ export default function Experience() {
                         time: "2024 January - 2024 August"
                         },
                         {
-                        title: "Core Committee Member - Business Development | NatCon'24 | AIESEC in Sri Lanka;",
+                        title: "Core Committee Member - Business Development | NatCon'24 | AIESEC in Sri Lanka",
                         description: "I was working with AIESEC in Sri Lanka's NatCon'24 as a Core Committee Member to help them grow and achieve their goals. I am mainly worked on raising partners and supporting financially",
                         time: "2023 August - 2024 January"
                         },
