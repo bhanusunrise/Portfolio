@@ -12,6 +12,15 @@ export default function Portfolio() {
             </Text>
 
             <Project 
+                title="AIESEC in Greece Assignment" 
+                description="To secure the Web DEsigner position, I developed this website." 
+                technologies={["Next.js", "TypeScript", "Tailwind CSS", "Vercel"]}
+                imageUrl="/projects/australia.png"
+                project_link="https://aiesec-in-greece-assignment.vercel.app/"
+                repo_link="https://github.com/bhanusunrise/AIESEC-in-Greece-Assignment"
+            />
+
+            <Project 
                 title="www.adventuretourssl.com" 
                 description="Adventure Tours is a Tuk Tuk riding company which is in Nuwara Eliya Sri Lanka. I developed this website to manage reviews, messages, update packages and showcase business to the clients so easily." 
                 technologies={["MySQL", "Next.js", "TypeScript", "Tailwind CSS", "Vercel"]}
