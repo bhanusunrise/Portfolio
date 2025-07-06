@@ -25,11 +25,21 @@ export default function Experience() {
 
                 <div style={{marginTop: "15%", marginBottom: "3%", marginLeft: "10%", marginRight: "10%"}}>
                 <ExperianceTimeline
-                    items={[    
+                    items={[   
+                        {
+                            title: "Freelance Developer | Upwork",
+                            description: "Started my freelance career as a developer on Upwork.",
+                            time: "2025 July - Present"
+                        }, 
+                        {
+                            title: "Product Manager | AIESEC in Sri Lanka",
+                            description: "As the Product Manager, I have contributed to the finalizing the CRM project.",
+                            time: "2025 February - 2025 July"
+                        },
                         {
                         title: "Web Designer | AIESEC in Greece",
-                        description: "I am working with AIESEC in Greece's as a Web Designer.",
-                        time: "2025 January - Present"
+                        description: "I worked with AIESEC in Greece's as a Web Designer.",
+                        time: "2025 January - 2025 - June"
                         },
                         {
                         title: "Software Engineer - Team Lead (Internship) | AIESEC in Sri Lanka",
