@@ -28,13 +28,16 @@ export default function Navbar({ setActivePage }: { setActivePage: (page: string
             <div className={`navbar-links ${menuOpen ? 'open' : ''}`}>
                 {['Home', 'Portfolio', 'Experience', 'Contact'].map((link) => (
                     <a
-                        key={link}
-                        href="#"
-                        className={`nav-link ${activeLink === link ? 'active' : ''}`}
-                        onClick={() => handleLinkClick(link)}
-                    >
-                        {link}
-                    </a>
+                    key={link}
+                    href=""
+                    className={`nav-link ${activeLink === link ? 'active' : ''}`}
+                    onClick={(e) => {
+                      e.preventDefault();         // ✅ Stop jump-to-top behavior
+                      handleLinkClick(link);
+                    }}
+                  >
+                    {link}
+                  </a>
                 ))}
             </div>
         </div>
